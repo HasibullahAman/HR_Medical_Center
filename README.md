@@ -18,5 +18,19 @@ First Step:
       -Doctors---> all in one img.
       -Garden
       -The mosque
+    4-Doctors:
+      - tow row 
+      - three column
+      - each element:
+        -Photo
+        -Name
+        -specialization
+     5-Department:
+       -img
+       -Name
+       -short Description
+     6-Contact:
+       -![Capture](https://user-images.githubusercontent.com/62972346/178625893-272b2e90-2f04-435a-977b-1cdeeec0c7c9.PNG)
+
      
       
