@@ -1,3 +1,11 @@
-.main-container {
+.container-fluid {
     background-color: #F8F9FA;
+    header {
+        nav {
+            .logo-img {
+                width: 0.25rem !important;
+                height: 0.25rem !important;
+            }
+        }
+    }
 }

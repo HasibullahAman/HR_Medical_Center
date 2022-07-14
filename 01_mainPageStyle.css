@@ -1,0 +1,9 @@
+.container-fluid {
+  background-color: #F8F9FA;
+}
+
+.container-fluid header nav .logo-img {
+  width: 0.25rem !important;
+  height: 0.25rem !important;
+}
+/*# sourceMappingURL=01_mainPageStyle.css.map */
