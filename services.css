@@ -1,0 +1,19 @@
+.section-title {
+    margin-bottom: 60px;
+}
+
+section.services-section {
+    padding: 100px 0px 50px;
+    background: #fff;
+}
+
+.services-box {
+    background: #FFF;
+    padding: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.services-box h3 {
+    margin: 15px 0px 20px;
+}

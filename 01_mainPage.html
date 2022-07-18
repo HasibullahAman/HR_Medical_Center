@@ -8,71 +8,75 @@
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="Font/css/all.min.css">
     <link rel="stylesheet" href="Font/css/font-awesome.min.css">
-    <link rel=" stylesheet " href="01_mainPageStyle.css ">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel=" stylesheet" href="01_mainPageStyle.css ">
     <script src="bootstrap.bundle.min.js ">
     </script>
     <title>HR Medical Center</title>
 </head>
 
 <body>
-    <div class="container-fluid ">
-        <header>
-            <!-- copy-Bootsrap Documentations -->
-            <!-- link: https://getbootstrap.com/docs/5.0/components/navbar/ -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-                <!-- logo -->
-                <nav class="navbar navbar-expand-sm navbar-dark ">
-                    <div class="container ">
-                        <a class="navbar-brand " href="# ">
-                            <img src="img/log.jpg " alt="Avatar Logo " style="width:60px; " class="rounded-pill ">
-                        </a>
-                    </div>
-                </nav>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent ">
-                    <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0 ">
-                        <li class="nav-item me-3 ">
-                            <a class="nav-link active " aria-current="page " href="# ">Home</a>
-                        </li>
-                        <li class="nav-item me-3 ">
-                            <a class="nav-link active " href="# ">Services</a>
-                        </li>
-                        <li class="nav-item me-3 ">
-                            <a class="nav-link active " href="# ">Doctors</a>
-                        </li>
-                        <li class="nav-item dropdown me-3 ">
-                            <a class="nav-link dropdown-toggle " href="# " id="navbarDropdown " role="button " data-bs-toggle="dropdown " aria-expanded="false ">
-                                Department
-                            </a>
-                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown ">
-                                <li><a class="dropdown-item " href="# ">X-Ray</a></li>
-                                <li>
-                                    <a class="dropdown-item " href="# ">...</a>
-                                </li>
-                                <!-- <li>
-                                    <hr class="dropdown-divider ">
-                                </li> -->
-                                <li><a class="dropdown-item " href="# ">...</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item me-3 ">
-                            <a class="nav-link active " href="# " tabindex="-1 " aria-disabled="true ">Contact</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex ">
-                        <input class="form-control me-2 " type="search " placeholder="Search " aria-label="Search ">
-                        <button class="btn btn-outline-success " type="submit ">Search</button>
-                    </form>
+    <nav class="navbar  navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid ps-5">
+            <img src="img/log.jpg " alt="Avatar Logo " style="width:60px; " class="rounded-pill">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="01_mainPage.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Hospital-ManagementPHP/contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#specialists">Doctors</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="will-work/will-work.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Department
+                          </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="will-work/will-work.html">Gynecologist</a></li>
+                            <li><a class="dropdown-item" href="will-work/will-work.html">Oncologist</a></li>
+                            <li>
+                                <a class="dropdown-item" href="will-work/will-work.html">Cardiologist</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="will-work/will-work.html">Gastrenterologist</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="will-work/will-work.html">Neurologist</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="will-work/will-work.html">Pediatrician</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#Blog" tabindex="-1" aria-disabled="true">Blog</a>
+                    </li>
+                </ul>
+                <div class="d-flex pe-5">
+                    <a href="Hospital-ManagementPHP/index.php"><button class="button ">Login</button></a>
                 </div>
-            </nav>
-        </header>
-    </div>
+            </div>
+        </div>
+    </nav>
     <section class="home " id="Home ">
         <div class="container ">
             <div class="row min-vh-100 align-items-center text-center text-md-left ">
                 <div class="col-md-6 pr-md-5 content ">
                     <h1 class="display-6 "><span class="text-success ">Stay</span>Safe, <span class="text-info ">Stay</span>Healty</h1>
                     <h3 class="display-6 " style="text-align: start; ">Cariag For You.</h3>
-                    <a href="# "><button class="button ">Learn More</button></a>
+                    <a href="will-work/will-work.html"><button class="button ">Learn More</button></a>
                 </div>
                 <div class="col-md-6 pl-md-5 ">
                     <img src="img/02_home-page.png " style="width:100%; " alt=" ">
@@ -94,15 +98,78 @@
                 <h3 class="display-6">we take care of your healthy life</h3>
                 <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ducimus, quod ex cupiditate ullam in assumenda maiores et culpa odit tempora ipsam qui, quisquam quis facere iste fuga, minus nesciunt.</p>
                 <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus vero ipsam laborum porro voluptates voluptatibus a nihil temporibus deserunt vel?</p>
-                <a href="# " class="btn "> learn more <span class="fas fa-chevron-right"></span> </a>
+                <a href="will-work/will-work.html" class="btn "> learn more <span class="fas fa-chevron-right"></span> </a>
             </div>
 
         </div>
 
     </section>
-    <section class="about mt-5 pt-5 " id="about ">
-        <div class="container ">
-            <h1 class="heading text-center display-4 pt-5"><span class="text-success ">'</span><span class="text-info">Free</span>Services<span class="text-success ">'</span></h1>
+    <section class="services-section" id="services">
+        <div class="container">
+            <h1 class="heading text-center display-6 pb-5 "><span class="text-success ">'</span>Services<span class="text-success ">'</span></h1>
+            <div class="row">
+                <div class="col-md-12">
+
+                </div>
+                <div class="col-md-4 border">
+                    <div class="services-box">
+                        <img src="img/Ser/neurology-icon.png" alt="">
+                        <h3>Neurology</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="services-box">
+                        <img src="img/Ser/eyecare-icon.png" alt="">
+                        <h3>Eyes care</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 border">
+                    <div class="services-box">
+                        <img src="img/Ser/pulmonary-icon.png" alt="">
+                        <h3>Pulomonary</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="services-box">
+                        <img src="img/Ser/cardiology-icon.png" alt="">
+                        <h3>Cardiology</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 border">
+                    <div class="services-box">
+                        <img src="img/Ser/dental-icon.png" alt="">
+                        <h3>Dental Care</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="services-box">
+                        <img src="img/Ser/hepatology-icon.png" alt="">
+                        <h3>Hepatology</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- <section class="about mt-5 pt-5 " id="Services">
+        <div class=" container ">
+            <h1 class="heading text-center display-4 pt-5 "><span class="text-success ">'</span><span class="text-info ">Free</span>Services<span class="text-success ">'</span></h1>
             <div class="row main-vh-100 align-items-center ">
                 <div class="col-md-6 content ">
                     <div class="box ">
@@ -129,78 +196,78 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="specialists container mb-5">
-        <h2 class="text-center display-6">Our top Specialists</h2>
-        <p class="text-center lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Rem voluptates ratione sapiente aliquid molestias et, cumque suscipit excepturi officiis cupiditate.</p>
-        <div class="containers">
+    </section> -->
+    <section class="specialists container mb-5" id="specialists">
+        <h2 class="text-center display-6 ">Our top Specialists</h2>
+        <p class="text-center lead ">Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Rem voluptates ratione sapiente aliquid molestias et, cumque suscipit excepturi officiis cupiditate.</p>
+        <div class="containers ">
             <article>
-                <div class="specialist-img">
-                    <img src="img/Spe/specialist1.jpg" alt="">
+                <div class="specialist-img ">
+                    <img src="img/Spe/specialist1.jpg " alt=" ">
                 </div>
-                <div class="specialist-details">
+                <div class="specialist-details ">
                     <h4>Dr.Hasibullah Aman</h4>
                     <small>Surgery Specialist</small>
                 </div>
                 <!-- icon-link:Boxicons -->
-                <div class="specialist-socials">
-                    <a href="www.linkedin.com" target="_blank"><i class="fas fa-link"></i></a>
-                    <a href="www.twitter.com" target="_blank"><i class="fas fa-link"></i></a>
-                    <a href="www.facebook.com" target="_blank"><i class="fas fa-link"></i></a>
-                    <a href="www.instagram.com" target="_blank"><i class="fas fa-link"></i></a>
+                <div class="specialist-socials ">
+                    <a href="www.linkedin.com " target="_blank "><i class="fas fa-link "></i></a>
+                    <a href="www.twitter.com " target="_blank "><i class="fas fa-link "></i></a>
+                    <a href="www.facebook.com " target="_blank "><i class="fas fa-link "></i></a>
+                    <a href="www.instagram.com " target="_blank "><i class="fas fa-link "></i></a>
                 </div>
-                <a href="http://api.watsapp.com/send?phone=+93799757131" class="specialist-watsapp bg-success"><i class="fas fa-link"></i></a>
+                <a href="http://api.watsapp.com/send?phone=+93799757131 " class="specialist-watsapp bg-success " target="_blank"><i class="fas fa-link "></i></a>
             </article>
             <article>
-                <div class="specialist-img">
-                    <img src="img/Spe/specialist2.jpg" alt="">
+                <div class="specialist-img ">
+                    <img src="img/Spe/specialist2.jpg " alt=" ">
                 </div>
-                <div class="specialist-details">
+                <div class="specialist-details ">
                     <h4>Dr.Hasibullah Aman</h4>
                     <small>Surgery Specialist</small>
                 </div>
                 <!-- icon-link:Boxicons -->
-                <div class="specialist-socials">
-                    <a href="www.linkedin.com" target="_blank"><i class="fas fa-link"></i></a>
-                    <a href="www.twitter.com" target="_blank"><i class="fas fa-link"></i></a>
-                    <a href="www.facebook.com" target="_blank"><i class="fas fa-link"></i></a>
-                    <a href="www.instagram.com" target="_blank"><i class="fas fa-link"></i></a>
+                <div class="specialist-socials ">
+                    <a href="www.linkedin.com " target="_blank "><i class="fas fa-link "></i></a>
+                    <a href="www.twitter.com " target="_blank "><i class="fas fa-link "></i></a>
+                    <a href="www.facebook.com " target="_blank "><i class="fas fa-link "></i></a>
+                    <a href="www.instagram.com " target="_blank "><i class="fas fa-link "></i></a>
                 </div>
-                <a href="http://api.watsapp.com/send?phone=+93799757131" class="specialist-watsapp bg-success"><i class="fas fa-link"></i></a>
+                <a href="http://api.watsapp.com/send?phone=+93799757131 " class="specialist-watsapp bg-success " target="_blank"><i class="fas fa-link "></i></a>
             </article>
             <article>
-                <div class="specialist-img">
-                    <img src="img/Spe/specialist3.jpg" alt="">
+                <div class="specialist-img ">
+                    <img src="img/Spe/specialist3.jpg " alt=" ">
                 </div>
-                <div class="specialist-details">
+                <div class="specialist-details ">
                     <h4>Dr.Hasibullah Aman</h4>
                     <small>Surgery Specialist</small>
                 </div>
                 <!-- icon-link:Boxicons -->
-                <div class="specialist-socials">
-                    <a href="www.linkedin.com" target="_blank"><i class="fas fa-link"></i></a>
-                    <a href="www.twitter.com" target="_blank"><i class="fas fa-link"></i></a>
-                    <a href="www.facebook.com" target="_blank"><i class="fas fa-link"></i></a>
-                    <a href="www.instagram.com" target="_blank"><i class="fas fa-link"></i></a>
+                <div class="specialist-socials ">
+                    <a href="www.linkedin.com " target="_blank "><i class="fas fa-link "></i></a>
+                    <a href="www.twitter.com " target="_blank "><i class="fas fa-link "></i></a>
+                    <a href="www.facebook.com " target="_blank "><i class="fas fa-link "></i></a>
+                    <a href="www.instagram.com " target="_blank "><i class="fas fa-link "></i></a>
                 </div>
-                <a href="http://api.watsapp.com/send?phone=+93799757131" class="specialist-watsapp bg-success"><i class="fas fa-link"></i></a>
+                <a href="http://api.watsapp.com/send?phone=+93799757131 " class="specialist-watsapp bg-success " target="_blank"><i class="fas fa-link "></i></a>
             </article>
             <article>
-                <div class="specialist-img">
-                    <img src="img/Spe/specialist4.jpg" alt="">
+                <div class="specialist-img ">
+                    <img src="img/Spe/specialist4.jpg " alt=" ">
                 </div>
-                <div class="specialist-details">
+                <div class="specialist-details ">
                     <h4>Dr.Hasibullah Aman</h4>
                     <small>Surgery Specialist</small>
                 </div>
                 <!-- icon-link:Boxicons -->
-                <div class="specialist-socials">
-                    <a href="www.linkedin.com" target="_blank"><i class="fas fa-link"></i></a>
-                    <a href="www.twitter.com" target="_blank"><i class="fas fa-link"></i></a>
-                    <a href="www.facebook.com" target="_blank"><i class="fas fa-link"></i></a>
-                    <a href="www.instagram.com" target="_blank"><i class="fas fa-link"></i></a>
+                <div class="specialist-socials ">
+                    <a href="www.linkedin.com " target="_blank "><i class="fas fa-link "></i></a>
+                    <a href="www.twitter.com " target="_blank "><i class="fas fa-link "></i></a>
+                    <a href="www.facebook.com " target="_blank "><i class="fas fa-link "></i></a>
+                    <a href="www.instagram.com " target="_blank "><i class="fas fa-link "></i></a>
                 </div>
-                <a href="http://api.watsapp.com/send?phone=+93799757131" class="specialist-watsapp bg-success"><i class="fas fa-link"></i></a>
+                <a href="http://api.watsapp.com/send?phone=+93799757131 " class="specialist-watsapp bg-success " target="_blank"><i class="fas fa-link "></i></a>
             </article>
         </div>
     </section>
@@ -211,21 +278,21 @@
         <div class="box-container row ">
             <div class=" col-4 box ">
                 <p class="lead ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ea, omnis reprehenderit dolor perspiciatis pariatur dignissimos magni neque! Pariatur, temporibus? </p>
-                <h3 class="display-6 ">Someone's Name</h3>
+                <h3 class="display-6 ">Basira</h3>
                 <span>jan 5,2022</span>
-                <img src="img/Spe/avatar1.jpg">
+                <img src="img/Spe/avatar1.jpg ">
             </div>
             <div class="col-4 box ">
                 <p class="lead ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ea, omnis reprehenderit dolor perspiciatis pariatur dignissimos magni neque! Pariatur, temporibus? </p>
-                <h3 class="display-6 ">Someone's Name</h3>
+                <h3 class="display-6 ">Hasibullah Aman</h3>
                 <span>jan 7,2022</span>
-                <img src="img/Spe/avatar2.jpg">
+                <img src="img/Spe/avatar2.jpg ">
             </div>
             <div class=" col-4 box ">
                 <p class="lead ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ea, omnis reprehenderit dolor perspiciatis pariatur dignissimos magni neque! Pariatur, temporibus? </p>
-                <h3 class="display-6 ">Someone's Name</h3>
+                <h3 class="display-6 ">Nawid Purdily</h3>
                 <span>jan 16,2022</span>
-                <img src="img/Spe/avatar3.jpg">
+                <img src="img/Spe/avatar3.jpg ">
             </div>
         </div>
 
@@ -265,51 +332,69 @@
                 <div class="col-md-6 pr-md-5 content ">
                     <h1 class="display-6 "><span class="text-success ">Make</span> an, <span class="text-info "> appointment</span> Now</h1>
                     <h3 class="display-6 " style="text-align: start; ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, autem at? Quod hic tempora ad, eligendi fuga maiores quam ea.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, non!</h3>
-                    <a href="# "><button class="button ">Book Now</button></a>
+                    <a href="Hospital-ManagementPHP/index.php"><button class="button ">Book Now</button></a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="post container-fluid id=" post ">
-            <div class="container-fluid min-vh-100 ">
-                <h1 class="heading text-center display-6 "><span class="text-warning ">'</span>Our Post<span class="text-warning ">'</span>
-                </h1>
-                <div class="box-container ">
-                    <div class="box ">
-                        <img src="img/Slide/Slide-3.jpg " alt=" ">
-                        <div class="content ">
-                            <span>jun 20 ,2022</span>
-                            <a href="# ">
-                                <h3 class="display-6 ">Post title goes here</h3>
-                            </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, maiores! Maiores, rem illo inventore magnam est eum. Dolorum, eius facilis.</p>
-                            <a href="# " class="btn "><button class="button display-6 ">Lear more</button></a>
-                        </div>
+    <section class="post container-fluid" id="Blog">
+        <div class="container-fluid min-vh-100 ">
+            <h1 class="heading text-center display-6 "><span class="text-warning ">'</span>Our Post<span class="text-warning ">'</span>
+            </h1>
+            <div class="box-container ">
+                <div class="box ">
+                    <img src="img/09_img.jpg" alt=" ">
+                    <div class="content">
+                        <span>jun 20 ,2022</span>
+                        <a href="will-work/will-work.html">
+                            <h3 class="display-6 ">Post title goes here</h3>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, maiores! Maiores, rem illo inventore magnam est eum. Dolorum, eius facilis.</p>
+                        <a href="will-work/will-work.html" class="btn "><button class="button display-6 ">Lear more</button></a>
                     </div>
-                    <div class="box ">
-                        <img src="img/Slide/Slide-4.jpg " alt=" ">
-                        <div class="content ">
-                            <span>jun 20 ,2022</span>
-                            <a href="# ">
-                                <h3 class="display-6 ">Post title goes here</h3>
-                            </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, maiores! Maiores, rem illo inventore magnam est eum. Dolorum, eius facilis.</p>
-                            <a href="# " class="btn "><button class="button display-6 ">Learn more</button></a>
-                        </div>
+                </div>
+                <div class="box ">
+                    <img src="img/10_img.jpg" alt=" ">
+                    <div class="content ">
+                        <span>jun 20 ,2022</span>
+                        <a href="will-work/will-work.html">
+                            <h3 class="display-6 ">Post title goes here</h3>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, maiores! Maiores, rem illo inventore magnam est eum. Dolorum, eius facilis.</p>
+                        <a href="will-work/will-work.html" class="btn "><button class="button display-6 ">Learn more</button></a>
                     </div>
-                    <div class="box ">
-                        <img src="img/Slide/Slide-5.jpg " alt=" ">
-                        <div class="content ">
-                            <span>jun 20 ,2022</span>
-                            <a href="# ">
-                                <h3 class="display-6 ">Post title goes here</h3>
-                            </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, maiores! Maiores, rem illo inventore magnam est eum. Dolorum, eius facilis.</p>
-                            <a href="# " class="btn "><button class="button display-6 ">Learn more</button></a>
-                        </div>
+                </div>
+                <div class="box ">
+                    <img src="img/11_img.jpg" alt=" ">
+                    <div class="content ">
+                        <span>jun 20 ,2022</span>
+                        <a href="will-work/will-work.html">
+                            <h3 class="display-6 ">Post title goes here</h3>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, maiores! Maiores, rem illo inventore magnam est eum. Dolorum, eius facilis.</p>
+                        <a href="will-work/will-work.html" class="btn "><button class="button display-6 ">Learn more</button></a>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
+    <div class="footer-basic ">
+        <footer>
+            <div class="social "><a href="www.instagram.com" target="_blank"><i class="icon ion-social-instagram "></i></a><a href="www.snapchat.com" target="_blank"><i class="icon ion-social-snapchat "></i></a><a href="www.twitter.com" target="_blank"><i class="icon ion-social-twitter "></i></a>
+                <a href="www.facebook.com" target="_blank"><i class="icon ion-social-facebook "></i></a>
+            </div>
+            <ul class="list-inline ">
+                <li class="list-inline-item "><a href="01_mainPage.html">Home</a></li>
+                <li class="list-inline-item "><a href="#services">Services</a></li>
+                <li class="list-inline-item "><a href="#about">About</a></li>
+                <li class="list-inline-item "><a href="will-work/will-work.html">Terms</a></li>
+                <li class="list-inline-item "><a href="will-work/will-work.html">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright ">HR Medical Center</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js "></script>
 </body>
+
 </html>
