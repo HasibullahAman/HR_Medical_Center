@@ -1,19 +1,14 @@
-   DBMS
-                         : : : : : LOGIN DETAILS : : : : : 
+                                             : : : : : LOGIN DETAILS : : : : : 
 
 
 Login Details for admin : admin
-              Password :Test@12345
-Login Details for Patient: test@gmail.com 
-                Password :Test@123
-Login Details for Doctor: test@demo.com 
-                Password : Test@123
+              Password :admin123
+Login Details for Doctor: will be add by admin.
 
 
-DON'T FORGET TO CREATE A DATABASE NAMING "hms.sql" AND IMPORT THE SQL FILE AND RUN.
+DON'T FORGET TO CREATE A DATABASE NAMING "hospitalms.sql" AND IMPORT THE SQL FILE AND RUN.
 WITHOUT THE DATABASE THE PROJECT WON'T RUN.
 
-***** IF YOU FIND ANY ERRORS OR ANY PROBLEMS RELATED THIS PROGRAM, FEEL FREE TO CONTACT US *****
 
      
       
