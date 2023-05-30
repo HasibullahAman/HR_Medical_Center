@@ -36,7 +36,7 @@ CREATE TABLE `admintb` (
 --
 
 INSERT INTO `admintb` (`username`, `password`) VALUES
-('admin', 'admin123');
+('Admin', 'admin123');
 
 -- --------------------------------------------------------
 
@@ -111,12 +111,12 @@ CREATE TABLE `doctb` (
 --
 
 INSERT INTO `doctb` (`username`, `password`, `doctorname`, `email`, `spec`, `docFees`) VALUES
-('WillWilliams', 'password', 'Will Williams', 'williams@gmail.com', 'Cardiologist', 435),
-('Ralph', 'password', 'Ralphn Bh', 'ralph@gmail.com', 'Neurologist', 450),
-('ryan', 'password', 'Ryan Chandler', 'ryanc@gmail.com', 'Pediatrician', 440),
-('lewis', 'password', 'Lou Lewis', 'lewis@gmail.com', 'Gynecologist', 280),
-('chris', 'password', 'Chris Olivas', 'chris@gmail.com', 'Oncologist', 580),
-('danial', 'password', 'Danial Rivera', 'danial@gmail.com', 'Neurologist', 210);
+('Naqibullah', 'password', 'Will Williams', 'williams@gmail.com', 'Cardiologist', 435),
+('Hekmatullah', 'password', 'Ralphn Bh', 'ralph@gmail.com', 'Neurologist', 450),
+('Qasim', 'password', 'Ryan Chandler', 'ryanc@gmail.com', 'Pediatrician', 440),
+('Somia', 'password', 'Lou Lewis', 'lewis@gmail.com', 'Gynecologist', 280),
+('Nawid', 'password', 'Chris Olivas', 'chris@gmail.com', 'Oncologist', 580),
+('Ahmad', 'password', 'Danial Rivera', 'danial@gmail.com', 'Neurologist', 210);
 
 -- --------------------------------------------------------
 
@@ -140,17 +140,17 @@ CREATE TABLE `patreg` (
 --
 
 INSERT INTO `patreg` (`pid`, `fname`, `lname`, `gender`, `email`, `contact`, `password`, `cpassword`) VALUES
-(1, 'Curtis', 'Hicks', 'Male', 'curtis@gmail.com', '7410000010', 'pass', 'pass'),
-(2, 'Emily', 'Smith', 'Female', 'emily@gmail.com', '7896541222', 'pass', 'pass'),
-(3, 'Robert', 'Ray', 'Male', 'robert@gmail.com', '7014744444', 'pass', 'pass'),
-(4, 'Michael', 'Foster', 'Male', 'michael@gmail.com', '7023696969', 'pass', 'pass'),
-(5, 'Victor', 'Owen', 'Male', 'victor@gmail.com', '7897895500', 'pass', 'pass'),
-(6, 'Johnny', 'Collins', 'Male', 'johnny@gmail.com', '7530001250', 'pass', 'pass'),
-(7, 'Elsie', 'Meads', 'Female', 'elsie@gmail.com', '7850001250', 'pass', 'pass'),
-(8, 'David', 'Fburn', 'Male', 'david@gmail.com', '7301450000', 'pass', 'pass'),
-(9, 'Brandon', 'Mckinnon', 'Male', 'brandon@gmail.com', '7026969500', 'pass', 'pass'),
-(10, 'Tyler', 'Smith', 'Male', 'tyler@gmail.com', '7900145300', 'pass', 'pass'),
-(11, 'Kathryn', 'Anderson', 'Female', 'kathryn@gmail.com', '7850002580', 'pass', 'pass'),
+(1, 'Ahmad', 'Hicks', 'Male', 'curtis@gmail.com', '7410000010', 'pass', 'pass'),
+(2, 'Amin', 'Smith', 'Female', 'emily@gmail.com', '7896541222', 'pass', 'pass'),
+(3, 'Fazludin', 'Ray', 'Male', 'robert@gmail.com', '7014744444', 'pass', 'pass'),
+(4, 'Qasim Ali', 'Foster', 'Male', 'michael@gmail.com', '7023696969', 'pass', 'pass'),
+(5, 'Nowroz', 'Owen', 'Male', 'victor@gmail.com', '7897895500', 'pass', 'pass'),
+(6, 'Boman', 'Collins', 'Male', 'johnny@gmail.com', '7530001250', 'pass', 'pass'),
+(7, 'Bakhtai', 'Meads', 'Female', 'elsie@gmail.com', '7850001250', 'pass', 'pass'),
+(8, 'Gul Bigum', 'Fburn', 'Male', 'david@gmail.com', '7301450000', 'pass', 'pass'),
+(9, 'Shah Gul', 'Mckinnon', 'Male', 'brandon@gmail.com', '7026969500', 'pass', 'pass'),
+(10, 'Massoda', 'Smith', 'Male', 'tyler@gmail.com', '7900145300', 'pass', 'pass'),
+(11, 'Ziba Khan', 'Anderson', 'Female', 'kathryn@gmail.com', '7850002580', 'pass', 'pass'),
 (12, 'Liam', 'Moore', 'Male', 'liam@gmail.com', '7412225680', 'password', 'password'),
 (13, 'Brian', 'Rowe', 'Male', 'brian@gmail.com', '7012569999', 'password', 'password');
 
@@ -216,3 +216,6 @@ ALTER TABLE `patreg`
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
+

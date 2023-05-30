@@ -15,6 +15,7 @@ if(isset($_POST['adsub'])){
 		// header("Location:error2.php");
 		echo("<script>alert('Invalid Username or Password. Try Again!');
           window.location.href = 'index.php';</script>");
+		  
 }
 if(isset($_POST['update_data']))
 {
